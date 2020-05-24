@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:newsclient/common/utils/utils.dart';
 import 'package:newsclient/common/values/values.dart';
 
+/// 欢迎页面
 class WelcomePage extends StatefulWidget {
   // 构造函数
   WelcomePage({Key key}) : super(key: key);
@@ -109,6 +110,7 @@ class _WelcomePageState extends State<WelcomePage> {
           borderRadius: Radii.k6pxRadius,
         ),
         onPressed: () {
+          Navigator.pushNamed(context, "/sign-in");
 //          ExtendedNavigator.rootNavigator.pushNamed(Routes.signInPageRoute);
         },
       ),

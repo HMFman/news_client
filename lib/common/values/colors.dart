@@ -1,5 +1,7 @@
 import 'dart:ui';
 
+/// 通过颜色的维度来区分：
+/// 比如：主次、控件分类
 class AppColors {
   /// 主背景 白色
   static const Color primaryBackground = Color.fromARGB(255, 255, 255, 255);
