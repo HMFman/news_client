@@ -74,6 +74,13 @@ dev_dependencies:
   auto_route_generator: ^0.4.4
   build_runner:
 
+  # app 图标生成
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
