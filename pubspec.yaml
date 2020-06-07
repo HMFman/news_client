@@ -16,6 +16,7 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+# //////////////////////// 项目的依赖 ////////////////////////////
 dependencies:
   flutter:
     sdk: flutter
@@ -66,6 +67,7 @@ dependencies:
   # share
   share: ^0.6.3+4
 
+# //////////////////////// 开发过程中的依赖 ////////////////////////////
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -74,13 +76,17 @@ dev_dependencies:
   auto_route_generator: ^0.4.4
   build_runner:
 
-  # app 图标生成
+  # 1.app 图标生成
   flutter_launcher_icons: ^0.7.5
 
+# 2.app 图标生成的路径
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icons/icon.png"
+#  image_path: "assets/icons/icon.png"
+  image_path: "assets/icons/icon_bee.png"
+
+  # 生成桌面图片命令：flutter pub run flutter_launcher_icons:main
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
